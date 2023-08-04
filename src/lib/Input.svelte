@@ -34,6 +34,7 @@
       placeholder="Placeholder"
       {disabled}
       bind:value
+      pattern="^[a-zA-Z0-9]+$"
     />
     <span class={positionIcon()}>{icon}</span>
   {:else}
